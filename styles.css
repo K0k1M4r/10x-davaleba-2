@@ -94,12 +94,13 @@ body {
 .side-panel h6 {
     font-weight: 700;
     font-size: 10px;
-
+    font-family: 'Gotham', sans-serif;
 }
 
 .side-panel span {
     font-size: 10px;
     font-weight: 300;
+    font-family: 'Gotham', sans-serif;
 }
 
 .side-panel-header {
@@ -121,6 +122,13 @@ body {
     color:#292929;
 }
 
+.card-section a {
+    font-family: 'Gotham', sans-serif;
+    color: #292929;
+    text-decoration: none;
+    font-size: 10px;
+}
+
 .card-section h1, h6 {
     color: #292929;
     font-size: 20.28px;
@@ -138,7 +146,8 @@ body {
     height: 20px;
     width: 300px;
     border-radius: 4.11px;
-    overflow: hidden;   
+    overflow: hidden; 
+    font-family: 'Gotham', sans-serif;
 }
 
 .vscode-meter {
@@ -186,94 +195,69 @@ body {
     font-family: "Anton", sans-serif;
 }
 
-.profile-card h2 {
-    font-family: "Anton", sans-serif;
-}
-
-.profile-card-skills {
-    font-family: "Anton", sans-serif;
-    color: 292929;
-    display: flex;
-}
-
-.box {
-    position: relative;
-    width: 300px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.box .ux {
-    position: relative;
-    width: 150px;
-    height: 150px;
-}
-
-.box .ux svg {
-    position: relative;
-    width: 150px;
-    height: 150px;
-}
-
-.box .ux svg circle {
-    width: 150px;
-    height: 150px;
-    fill: none;
-    stroke-width: 10;
-    stroke: #000;
-    transform:translate(5px,5px);
-    stroke-dasharray: 440;
-    stroke-dashoffset: 440;
-
-}
-
-
-.box .ux svg circle:nth-child(1) {
-    stroke-dashoffset: 0;
-    stroke: #F4EFFD;
-
-}
-
-.box .ux svg circle:nth-child(2) {
-    stroke-dashoffset: 40;
-    stroke:#84FAB0;
-
-}
-
-
-.box .ux .ux-title {
-    position:absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.box .ux 
-
-.profile-card-experience {
-    display: flex;
-}
-
-
-
-.profile-card-dates {
-    display: flex;
-    flex-direction: column;
+.profile-bio {
+    font-size: 10px;
 }
 
 .profile-card-text {
     display: flex;
     flex-direction: column;
-    font-family: "Montserrat", sans-serif;
     color: #292929;
+    font-family: 'Gotham', sans-serif;
 }
+
+.profile-card-text span {
+    font-size: 10px;
+}
+
+.profile-card h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.profile-card h3 {
+    font-family: "Anton", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.profile-card-skills {
+    font-family: "Anton", sans-serif;
+    color: #292929;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.profile-card-experience {
+    display: flex;
+    gap: 20px;
+}
+
+.profile-card-experience span {
+    font-family: 'Gotham', sans-serif;
+}
+
+.profile-card-dates {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-card-dates {
+    font-size: 12px;
+}
+
+.profile-card-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 
