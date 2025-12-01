@@ -7,15 +7,15 @@
 body {
 	margin: 0 auto;
 	max-width: 595px;
-    background: #292929;
+    background: #ffffff;
 }
 
 
 
 
 .header {
-    background: #292929;
-    border-bottom: 1px solid #ffffff;
+    background: #ffffff;
+    border-bottom: 1px solid #292929;
     padding: 20px 0;
     max-width: 100%;
     
@@ -36,7 +36,7 @@ body {
     border-radius: 50%;
     padding: 5px;
     overflow: hidden;
-    border: 1px solid #ffffff;
+    border: 1px solid #292929;
     
 }
 
@@ -59,7 +59,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: "Anton", sans-serif;
-    color: white;
+    color: #292929;
     font-size: 40px;
     font-weight: 300;
     text-transform: uppercase;
@@ -67,7 +67,7 @@ body {
 }
 
 .separator {
-    background: white;
+    background: #292929;
     width: 10px;
     max-width: 100%;
     margin: 0 20px;
@@ -78,38 +78,51 @@ body {
     height: 100%;
 }
 
+.page-container h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .side-panel {
-    background: #292929;
-    border-right: 1px solid #ffffff;
-    width: 234px;
-    padding: 30px 41.12px 0 38.03px;
+    background: #ffffff;
+    border-right: 1px solid #292929;
+    width: 227px;
+    padding: 0 41.12px 0 38.03px;
 
 }
 
+.side-panel h6 {
+    font-weight: 700;
+    font-size: 10px;
 
+}
+
+.side-panel span {
+    font-size: 10px;
+    font-weight: 300;
+}
 
 .side-panel-header {
-    margin-top: 30px;
+    margin-top: 20px;
     text-transform: uppercase;
-    border-bottom: 1px solid white;
-    color: white;
+    border-bottom: 1px solid #292929;
+    color: 292929;
     font-size: 20.56px;
     font-family: "Anton", sans-serif;
     width: 150px;
 }
 
 .card-section {
-    border-bottom: 0.21px solid white;
-    font-family: "Montserrat", sans-serif;
+    border-bottom: 0.21px solid #292929;
     width: 150px;
 }
 
 .card-section span {
-    color:grey;
+    color:#292929;
 }
 
 .card-section h1, h6 {
-    color: white;
+    color: #292929;
     font-size: 20.28px;
     
 }
@@ -124,7 +137,6 @@ body {
 .photoshop  {
     height: 20px;
     width: 300px;
-    background: grey;
     border-radius: 4.11px;
     overflow: hidden;   
 }
@@ -161,22 +173,26 @@ body {
 
 
 .profile {
-    background: #292929;
+    background: #ffffff;
     flex: 1;
     padding: 20.56px 20.56px 20.56px 19.18px;
 }
 
 .profile-header {
-    margin-top: 30px;
+    
     text-transform: uppercase;
-    border-bottom: 1px solid white;
-    color: white;
+    border-bottom: 1px solid #292929;
+    color: #292929;
+    font-family: "Anton", sans-serif;
+}
+
+.profile-card h2 {
     font-family: "Anton", sans-serif;
 }
 
 .profile-card-skills {
     font-family: "Anton", sans-serif;
-    color: white;
+    color: 292929;
     display: flex;
 }
 
@@ -257,7 +273,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
-    color: grey;
+    color: #292929;
 }
 
 
