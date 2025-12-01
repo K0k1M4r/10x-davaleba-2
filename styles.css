@@ -10,60 +10,45 @@ body {
     background: #ffffff;
 }
 
-
-
-
 .header {
     background: #ffffff;
     border-bottom: 1px solid #292929;
     padding: 20px 0;
-    max-width: 100%;
-    
-}
-
-
-
-.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
 }
 
-
 .profile-pic-frame {
-    max-width: 100%;
-    border-radius: 50%;
-    padding: 5px;
-    overflow: hidden;
     border: 1px solid #292929;
-    
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
 }
 
 .profile-pic-frame img {
     object-fit: cover;
-    max-width: 100%;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .name-container {
-    
     max-width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.text-block h1, .text-block h2{
-    display: flex;
-    justify-content: center;
+.text-block {
     font-family: "Anton", sans-serif;
     color: #292929;
     font-size: 40px;
-    font-weight: 300;
     text-transform: uppercase;
-    line-height: 100%;
+    text-align: left;
 }
 
 .separator {
@@ -111,11 +96,13 @@ body {
     font-size: 20.56px;
     font-family: "Anton", sans-serif;
     width: 150px;
+    padding-bottom: 10px;
 }
 
 .card-section {
     border-bottom: 0.21px solid #292929;
     width: 150px;
+    margin-top: 15px;
 }
 
 .card-section span {
@@ -135,9 +122,7 @@ body {
     
 }
 
-.card-section h6 {
-    margin-top: 10px;
-}
+
 
 .vscode ,
 .adobe ,
@@ -148,6 +133,12 @@ body {
     border-radius: 4.11px;
     overflow: hidden; 
     font-family: 'Gotham', sans-serif;
+    margin-top: 10px;
+}
+
+.meters {
+    margin-top: 10px;
+   
 }
 
 .vscode-meter {
@@ -184,11 +175,16 @@ body {
 .profile {
     background: #ffffff;
     flex: 1;
-    padding: 20.56px 20.56px 20.56px 19.18px;
+    
+}
+
+.profile-card {
+    padding: 20px;
 }
 
 .profile-header {
-    
+    padding-bottom: 10px;
+    margin-bottom: 10px;
     text-transform: uppercase;
     border-bottom: 1px solid #292929;
     color: #292929;
@@ -227,6 +223,7 @@ body {
     color: #292929;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 
@@ -235,6 +232,7 @@ body {
 
 .profile-card-experience {
     display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -242,14 +240,28 @@ body {
     font-family: 'Gotham', sans-serif;
 }
 
-.profile-card-dates {
+.profile-card-dates-exp {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
+.profile-card-dates-exp span {
+    font-family: 'Gotham', sans-serif;
+}
+
+.profile-card-exp {
+    display: flex;
+    flex-direction: column;
+
+}
+
+ 
 .profile-card-dates {
     font-size: 12px;
+}
+
+.exp-place {
+    font-size: 10px;
 }
 
 .profile-card-text {
